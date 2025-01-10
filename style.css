@@ -131,8 +131,8 @@ nav{
     border-radius: 20px;
 }
 
-.card img, .card h3, .card p{
-    margin: 10px 0;
+.card h5, .card p{
+    margin-top: 10px;
 }
 
 
