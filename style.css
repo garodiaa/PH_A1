@@ -272,21 +272,23 @@ nav{
     justify-content: space-between;
 }
 
-.news-box:nth-child(odd){
+.news-box:nth-child(even){
     flex-direction: row-reverse;
+}
+.news-box:nth-child(even)>div{
+    margin-right: 32px;
 }
 
 .news-box:nth-child(odd)>div{
-    margin: 0 32px 0 0;
+    margin-left: 32px;
 }
-
 
 .news-box>img{
     border-radius: 20px;
     width: 30%;
 }
+
 .news{
-    margin-left:32px;
     position: relative;
 }
 
