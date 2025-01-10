@@ -318,3 +318,111 @@ span{
     color:rgba(14, 14, 14, 0.7);
     margin-right: 10px;
 }
+
+/* donate */
+
+.donate{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.btn-4{
+    padding: 40px;
+    margin:0 10px;
+    background: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.btn-4:hover{
+    background: rgba(198, 228, 214, 1);
+}
+
+.donate input{
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    width: 65%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.donate .btn-3:hover{
+    background: rgba(0, 106, 80, 0.8);
+}
+
+/* newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+
+    background: rgba(198, 228, 214, 1);
+    border-radius: 20px;
+    padding: 48px;
+
+}
+
+.newsletter .subscribe{
+    width: 70%;
+    text-align: center;
+}
+
+.newsletter input{
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    width: 65%;
+    font-weight: 300;
+}
+.newsletter .btn-3{
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+    color: white; 
+    background: rgba(0, 106, 80, 1); 
+}
+
+.newsletter .btn-3:hover{
+    background: rgba(0, 106, 80, 0.8);
+}
+
+/* footer */
+footer{
+    background: rgb(255, 255, 255);
+    margin-top:80px;
+    padding: 48px 0;
+    text-align: center;
+}
+
+footer>section{
+    margin: 0px;
+}
+
+footer h3{
+    color: black;
+}
+
+footer hr{
+    width: 70%;
+    margin: 24px auto;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
