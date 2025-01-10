@@ -85,8 +85,9 @@ button{
 .btn-3{
     padding: 15px 20px;
     border-radius: 8px;
-    font-weight: 700;
-    color: white;   
+    font-weight: 600;
+    color: white; 
+    background: rgba(0, 106, 80, 1); 
 }
 
 
@@ -255,4 +256,63 @@ nav{
     border: 1px solid #006A50;
     border-radius: 8px;
     background-color: rgba(198, 228, 214, 1);
+}
+
+/* News */
+.news h2{
+    margin: 24px 0;
+}
+.news-box{
+    margin:24px 0;
+    border-radius: 20px;
+    padding: 48px;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.news-box:nth-child(odd)>div{
+    margin: 0 32px 0 0;
+}
+
+
+.news-box>img{
+    border-radius: 20px;
+    width: 30%;
+}
+.news{
+    margin-left:32px;
+    position: relative;
+}
+
+.news h3{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 5px;
+}
+.news>img{
+    margin: 15px 0;
+}
+.news p{
+    margin: 15px 0;
+}
+
+.news>.btn-3{
+    position: absolute;
+    bottom: 1px;
+    width: 120px;
+}
+
+.news>.btn-3:hover{
+    background: rgba(0, 106, 80, 0.8);
+}
+
+
+span{
+    color:rgba(14, 14, 14, 0.7);
+    margin-right: 10px;
 }
