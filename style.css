@@ -215,3 +215,44 @@ nav{
 .vision .quote h6{
     margin-top: 5px;
 }
+
+/* Opinion Table */
+
+.table-container{
+    margin: 32px 0;
+    border-radius: 20px;
+    background-color: white;
+    padding: 24px;
+}
+
+.table-container table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    table-layout: fixed;
+}
+
+.table-container table th{
+    padding: 15px 15px;
+    background-color: rgba(198, 228, 214, 1);
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.table-container table thead .col-2{
+    width: 20%;
+}
+.table-container table td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 15px;
+    font-weight: 700;
+}
+
+.table-container table td select{
+    font-weight: 600;
+    padding: 10px 10px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background-color: rgba(198, 228, 214, 1);
+}
