@@ -5,8 +5,134 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 body{
-    font-family: 'Fira Sans', sans-serif;
+    background-color: #F5F5F5;
 }
+
+/* Shareable Styling */
+header,main{
+    padding: 0 10%;
+}
+
+p{
+    color:rgba(14, 14, 14, 0.7)
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color:rgba(14, 14, 14, 1);
+}
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    color:rgba(14, 14, 14, 1);
+}
+h3{
+    font-size: 26px;
+    font-weight: 700;
+    color:rgba(14, 14, 14, 0.5);
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-1{
+    padding: 15px 30px;
+    background: transparent;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-weight: 800;
+    color: #006A50;
+}
+
+.btn-1:hover{
+    background: #006A50;
+    color: white;
+}
+
+.btn-2{
+    padding: 15px 30px;
+    margin: 10px 0;
+    background: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;   
+}
+
+.btn-2:hover{
+    background: transparent;
+    color: #006A50;
+}
+
+body section{
+    margin-top: 80px;
+}
+
+/* header */
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* hero-sec */
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 100px 60px;
+
+    background-color: #C6E4D6;
+    border-radius: 20px;
+}
+
+.hero-sec div{
+    width: 60%;
+}
+
+.hero-sec h1{
+    margin: 10px 0;
+}
+.hero-sec>img{
+    width: 35%;
+}
+
+/* main */
+/* pilars of BD */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    gap: 25px;
+}
+
+.container .card{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 20px;
+}
+
+.card img, .card h3, .card p{
+    margin: 10px 0;
+}
+
+
