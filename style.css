@@ -211,6 +211,7 @@ nav{
 }
 
 .vision .quote p{
+    color: rgba(14, 14, 14, 0.8);
     margin-bottom: 15px;
 }
 .vision .quote h6{
@@ -254,7 +255,7 @@ nav{
     font-weight: 600;
     padding: 10px 10px;
     border: 1px solid #006A50;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color: rgba(198, 228, 214, 1);
 }
 
@@ -341,9 +342,16 @@ span{
     color: rgba(14, 14, 14, 0.8);
 }
 
-.btn-4:hover{
+.btn-4:nth-child(2){
     background: rgba(198, 228, 214, 1);
 }
+
+.btn-4:hover{
+    background: rgba(0, 106, 80, 1);
+    color: white;
+}
+
+
 
 .donate input{
     padding: 15px 20px;
